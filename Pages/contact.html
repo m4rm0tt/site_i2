@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        <strong>Contactez-nous</strong>
+    </h1>
+    <form>
+        <p>
+            Utilisez ce formulaire pour commander nos barquettes de fraises préférées ou simplemenet nous envoyer un
+            message.
+        </p>
+        <p>
+            <strong>Nom *</strong>
+            <input type="text" name="nom" id="1" required>
+        </p>
+        <p>
+            <strong>Prénom *</strong>
+            <input type="text" name="prenom" id="2" required>
+        </p>
+        <p>
+            <strong>Adresse *</strong>
+            <input type="text" name="adresse" id="3" required>
+        </p>
+        <p>
+            <strong>Lieu *</strong>
+            <input type="text" name="lieu" id="4" required>
+        </p>
+        <p>
+            <strong>NPA *</strong>
+            <input type="text" name="npa" id="5" required>
+        </p>
+        <fieldset>
+            <legend><strong>Votre Commande</strong></legend>
+
+            <p><strong>Barquette de fraise désirée</strong></p>
+            <input type="checkbox" name="" id="6">
+            La gariguette
+
+            <input type="checkbox" name="" id="7">
+            La mariquette
+
+            <input type="checkbox" name="" id="8">
+            La cléry
+
+            <p>
+                <strong>Quantité :</strong>
+                <select name="quantite" id="9">
+                    <option value="1kg">1kg</option>
+                    <option value="2kg">2kg</option>
+                    <option value="3kg">3kg</option>
+                </select>
+            </p>
+
+            <fieldset>
+                <legend><strong>Mode de Paiement</strong></legend>
+                <input type="radio" name="Payement" id=""> Payement à la livraison
+                <input type="radio" name="Payement" id=""> Carte bancaire
+                <input type="radio" name="Payement" id=""> Paypal
+            </fieldset>
+        </fieldset>
+        <h3>Message :</h3>
+        <textarea name="" id="" cols="40" rows="5"></textarea>
+        <p>
+            <input type="checkbox" name="" id="" required> J'accepte les conditions générales *
+        </p>
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
+
+</html>
